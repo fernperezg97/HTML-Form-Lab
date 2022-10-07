@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+    <head>
+        <h1>Order a Melongram!</h1>
+            <p>
+            There's no better way to show a loved one you care than with a Melongram.<br>
+
+            Each Melongram comes with a custom message printed on high-quality cardstock
+            and your choice of a hand-picked, premium melon. 
+            </p>
+    </head>
+        <body>
+            <h2>Melon Options</h2>
+                <p>
+                Here we have a table with all of your melon options!
+                </p>
+                <table>
+                    <tr>
+                        <th>Melon Type</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>Watermelon</td>
+                        <td>$1,200.00</td>   
+                    </tr>
+                    <tr>
+                        <td>Canteloupe</td>
+                        <td>$400.00</td>
+                    </tr>
+                    <tr>
+                        <td>Honeydew</td> 
+                        <td>$1,750.00</td> 
+                    </tr>
+                </table>
+            <h2>Order Form</h2>
+            <form>
+                <label for="Name">Name:</label>                
+                <input type="text" name="name" id="Name"><br>
+                <label for="Recipient">Recipient:</label>
+                <input type="text" name="Recipient" id="Recipient"><br>
+
+                <label for="Melon-Select">Choose your melon from dropdown:</label>
+                <select name="Melon" id="Melon-Select">
+                    <option value="Watermelon">Watermelon</option>
+                    <option value="Canteloupe">Canteloupe</option>
+                    <option value="Honeydew">Honeydew</option>
+                </select>
+            
+                <input type="radio" name="time" value="am" id="Morning">
+                <input type="radio" name="time" value="pm" id="Evening">
+                <input type="radio" name="time" value="any" id="Any-time">
+           
+                <label for="Enter-your-message">Enter your message:</label>
+                <textarea name="message" id="Enter-your-message"></textarea>
+           
+                Subscribe to our newsletter!
+
+                <input type="checkbox" name="Subscribe" value="yes" id="subscribe">
+                <label for="subscribe">subscribe</label>
+            
+                <input type="submit">
+            </form>
+        
+        </body>
+
+</html>
+
